@@ -1,0 +1,32 @@
+{
+  "menus": [
+    {
+      "id": "inboundForecast",
+      "active": false,
+      "menu_name": "入库预报",
+      "url": "/"
+    },{
+      "id": "TransshipmentOutbound",
+      "active": false,
+      "menu_name": "转运出库",
+      "url": "/outbound"
+    },{
+      "id": "stock",
+      "active": false,
+      "menu_name": "库存",
+      "url": "/stock"
+    },
+    {
+      "id": "shippingPlan",
+      "active": false,
+      "menu_name": "补货计划",
+      "url": "/plan"
+    },
+    {
+      "id": "shippingOrder",
+      "active": false,
+      "menu_name": "补货订单",
+      "url": "/order"
+    }
+  ]
+}

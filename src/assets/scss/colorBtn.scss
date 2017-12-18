@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+//--------配色--------
+// 主色
+$mainColor: #ff5a00;
+$mainColorCg: #FF762B;
+$mainColorBg: #FEF4EF;
+//--------按钮--------
+// 搜索按钮
+.btn{
+  height: 32px;
+  line-height: 17px;
+  &.btn-sm{
+    height: 28px;
+    min-width: 100px;
+    text-align: center;
+  }
+}
+.btn-def{
+  border: 1px solid #aaa;
+  background: #eff0f3;
+  background: -webkit-linear-gradient(top,#f7f8fa,#e7e9ec);
+  background: linear-gradient(to bottom,#f7f8fa,#e7e9ec);
+  color: #191919;
+  &:hover{
+    background: #eee;
+  }
+}
+.btn.btn-f3d078, .btn.btn-def.btn-f3d078{
+  background: #f3d078;
+  background: -webkit-linear-gradient(top,#f7dfa5,#f0c14b);
+  background: linear-gradient(to bottom,#f7dfa5,#f0c14b);
+  font-size: 12px;
+  color: #191919;
+  border-color: #C0A560;
+  &:hover{
+    background-color: #f3d078;
+    color: #191919;
+  }
+}
+
+.btn-orange{
+  background-color: #F3D078;
+  border-color: #846A29;
+  color: #49412C;
+  &:hover{
+    background-color: darken($color: #F3D078, $amount: 10%);
+  }
+}
+
+.btn-000 {
+  background-color: #444;
+  border: 1px solid #222;
+  color: #fff;
+  opacity: 0.8;
+  &:hover {
+    opacity: 0.9;
+    color: #fff;
+  }
+}
+.btn-fff {
+  height: 32px !important;
+  font-size: 14px !important;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  &:hover{
+    background-color: darken($color: #f2f2f2, $amount: 10%);
+  }
+}

@@ -1,0 +1,243 @@
+module.exports = {
+    main: {
+        company: "SHENZHEN STARPOST SUPPLY CHAIN MANAGEMENT CO., LTD",
+        logout: "Logout",
+        toTop: "Back to top",
+        selectOrg: 'Please select an operating organization',
+        all: "All"
+    },
+    button: {
+        search: "Search",
+        ok: "Ok",
+        cancel: "Quit",
+        submit: "Submit",
+        reset: "Reset",
+        createShippingPlan: 'Generate shipping plans',
+        createShippingPlanFromFile: "Templet import",
+        downloadPackingList: "Download packing list",
+        createShippingOrder: "Generate shipping order",
+        addForecast: "Add forecast",
+        printCarton: "Download carton label",
+        export_one: "Export current page",
+        export_all: "Export all"
+    },
+    placeholder: {
+        timeZone: "Pls select time zone",
+        org: "Pls select organization",
+        sku: "Pls enter SKU",
+        num: "Pls enter quantity",
+        warehouse: "Pls select warehouse",
+        logisticProduct: "logistic",
+        logistic: "Pls select logistic",
+        selectCountry: "Pls select country",
+        selectState: "Pls select State",
+        select_startDate: "Pls select start time",
+        select_endDate: "Pls select end time",
+        status: "Pls select order status",
+        currency: "Pls select currency",
+        category: "Pls select type of declartion",
+        selectSku: "Pls select SKU",
+        inventoryType: "Pls select inventory type",
+        orderType: "Pls select order type"
+    },
+    layer: {
+        noBusiness: 'General order',
+        sku: 'SKU',
+        newsku: 'New SKU',
+        carton: 'Units per Case',
+        wsAddress: "Warehouse address",
+        country: "Country",
+        province: "Province",
+        city: "City",
+        address: "Address",
+        post: "Postcode",
+        tel: "Telephone",
+        type: "Type",
+        transport: "Transport",
+        replenishment: "Replenishment",
+        returnstorage: "Return Storage",
+        upload: "Upload file",
+        download: "Download preview template",
+        cartonLabel: "PDF of case label",
+        selectFile: 'Please select file',
+        succ: 'Successful !',
+        tips: 'Warm Tips',
+        toggle: 'Are you sure to toggle the language?',
+        selectOrder: 'Please select order',
+    },
+    stock: {
+        title: "FBA Inventory",
+        table: {
+            sku: "SKU",
+            name: "Name",
+            warehouse: "Warehouse",
+            inventory: "Inventory(Case)",
+            lock_inventory: "Planned outbound inventory",
+            cartonNum: "Case Number",
+            num: "Units per Case",
+            total: "Total",
+            caseDetail: "Case Detail",
+            status: "Order Status",
+            inventoryType: "Inventory Type",
+            orderType: "Order Type",
+            number: "PCS",
+            lock_number: "Planned outbound PCS"
+        },
+        lock: "Planned outbound",
+        low_stocks: "Low stocks",
+        newSku: "new sku is required",
+        length: "length",
+        width: "width",
+        height: "height",
+        weight: "weight",
+        case: "Case",
+        inventoryType: {
+            FBA: "Replenishment inventory",
+            FBA_RETURN: "Returns inventory"
+        }
+    },
+    inventoryInvoice: {
+        title: "FBA Inventory Invoice",
+        table: {
+            sku: "SKU",
+            skuName: "Sku Name",
+            warehouse: "Warehouse",
+            type: "Type",
+            businessCode: "Order Id",
+            qty: "Quantity",
+            banlanceQty: "Banlance Quantity",
+            createDate: "Create Date",
+        },
+    },
+    plan: {
+        title: "FBA Replenishment Plan",
+        cancel: "Cancel",
+        table: {
+            sku: "SKU",
+            qty: "Quantity",
+            amazon: "Amazon Warehouse",
+            operating: "Operating",
+            trackingNum: "Tracking Number",
+            status: "Status",
+            unitsOfCase: "Units Per Case",
+            totalQty: "Qty"
+        },
+        titleReturn: "FBA Return plan",
+        titleReturnOrder: "FBA Return order",
+        createOutboundOrder: "Generate a return order",
+    },
+    order: {
+        title: "FBA Replenishment Order"
+    },
+    inbound: {
+        title: "FBA Inbound Forecast",
+        table: {
+            orderID: "Order ID",
+            type: "Type",
+            receivable: "Receivable",
+            warehouse: "Warehouse"
+        },
+        truckTransshipment: "Truck Transshipment template",
+        downloadTransshipment: "FBA Transshipment template",
+        transshipmentTips: "This template applies to the transshipment cargos with FBA label",
+        downloadReplenishment: "FBA Replenishment template",
+        replenishmentTips: "This template applies to the cargos without FBA label ",
+        downloadReturnstorage: "Return storage template",
+        ReturnstorageTips: "This template applies to return storage",
+        REPLENISHMENT_INBOUND: "REPLENISHMENT_INBOUND",
+        TRANSPORT_INBOUND: "TRANSPORT_INBOUND",
+        REPLENISHMENT_OUTBOUND: "REPLENISHMENT_OUTBOUND",
+        TRANSPORT_OUTBOUND: "TRANSPORT_OUTBOUND",
+        FBA_REPLENISHMENT_INBOUND: "REPLENISHMENT_INBOUND",
+        FBA_TRANSPORT_INBOUND: "TRANSPORT_INBOUND",
+        FBA_RETURNSTORAGE_INBOUND: "RETURNSTORAGE_INBOUND",
+        FBA_REPLENISHMENT_OUTBOUND: "REPLENISHMENT_OUTBOUND",
+        FBA_TRANSPORT_OUTBOUND: "TRANSPORT_OUTBOUND",
+
+        refNumber: "Reference Number",
+        unitsPerCase: "Units Per Case(Board)",
+        numberOfCases: "Number Of Cases(Boards)",
+        qty: "Quantity",
+        PENDING: "Pending",
+        PROCESSING: "processing",
+        COMPLETED: "Inbounded",
+        CANCELLED: "cancelled",
+        PENDING_APPROVAL: "Pending approval",
+        REFUSE: "Audit failed",
+        NEW: "Pending approval", //待审核
+        CONFIRMED: "Pending", // 已预报
+        DONE: "Inbounded", // 已完成
+        DELETED: "Cancelled", // 已取消
+        ERROR: "Error",
+        WARNING: "Warning",
+
+        detail: "Details",
+        time: "Time",
+        details: "Details",
+        stockIn: "Stock In"
+    },
+    outbound: {
+        PENDING: "Pending",
+        COMPLETED: "Outbounded",
+        CANCELLED: "cancelled",
+        PENDING_APPROVAL: "Pending approval",
+        REFUSE: "Audit failed",
+        NEW: "Pending approval", //待审核
+        CONFIRMED: "Pending", // 已预报
+        DONE: "Outbounded", // 已完成
+        DELETED: "Cancelled", // 已取消
+        ERROR: "Error",
+        WARNING: "Warning",
+        channels: "Channels"
+    },
+    transport: {
+        title: "FBA Transshipment",
+        awb: "Waybill Number"
+    },
+    label: {
+        title: "FBA change label after return",
+        orderInfo: "Order information",
+        priority: "Outbound priority",
+        common: "Common",
+        urgent: "Urgent",
+        customerOrderId: "Customer order ID",
+        country: "Country",
+        state: "State",
+        city: "City",
+        address: "Address",
+        postalCode: "Postal code",
+        recipients: "Recipients",
+        phone: "Phone",
+        email: "Email",
+        declaredInfo: "Declaration information",
+        purchase: "Purchase insurance or not",
+        yes: "yes",
+        no: "no",
+        currency: "Currency",
+        category: "Declaration category",
+        insurance: "Insurance amount",
+        logisticAddress: "Logistic address",
+        logisticProduct: "Logistic product",
+        packingList: "Packing list",
+        ptag: "Product Tags",
+        labelFormat: "Please use format of product label",
+        pdetail: "Declaration details",
+        operate: "Operate",
+        goods: {
+            gift: "Gift",
+            document: "Document",
+            sample: "Goods sample",
+            others: "Others"
+        }
+    },
+    profile: {
+        registerInfo: 'Register info',
+        passwordModify: 'Password modifying',
+        name: 'Name',
+        phone: 'Phone',
+        address: 'Address',
+        oldpwd: 'Old',
+        newpwd: 'New',
+        chkpwd: 'Confirm'
+    }
+}

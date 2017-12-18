@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "menus": [
+      {
+        "id": "inboundForecast",
+        "active": false,
+        "menu_name": "FBA入库预报",
+        "url": "/"
+      }, 
+      {
+        "id": "ChangeLabel",
+        "active": false,
+        "menu_name": "FBA退货换标",
+        "url": "/label",
+        "sub_menus": [
+          {
+            "name": "FBA退货计划",
+            "url": "/label/return-plan"
+          },
+          {
+            "name": "FBA退货订单",
+            "url": "/label/return-order"
+          }
+        ]
+      },
+      {
+        "id": "TransshipmentOutbound",
+        "active": false,
+        "menu_name": "FBA转运出库",
+        "url": "/outbound"
+      }, {
+        "id": "stock",
+        "active": false,
+        "menu_name": "FBA补货库存",
+        "url": "/stock"
+      },
+      {
+        "id": "inventoryInvoice",
+        "active": false,
+        "menu_name": "FBA进销存",
+        "url": "/inventory-invoice"
+      },
+      {
+        "id": "shippingPlan",
+        "active": false,
+        "menu_name": "FBA补货计划",
+        "url": "/plan"
+      },
+      {
+        "id": "shippingOrder",
+        "active": false,
+        "menu_name": "FBA补货订单",
+        "url": "/order"
+      }
+    ]
+  },
+  "en": {
+    "menus": [
+      {
+        "id": "inboundForecast",
+        "active": false,
+        "menu_name": "FBA Inbound Forecast",
+        "url": "/"
+      }, 
+      {
+        "id": "ChangeLabel",
+        "active": false,
+        "menu_name": "FBA Return Label",
+        "url": "/label"
+      },
+      {
+        "id": "Transshipment",
+        "active": false,
+        "menu_name": "FBA Transshipment",
+        "url": "/outbound"
+      }, {
+        "id": "stock",
+        "active": false,
+        "menu_name": "FBA Replenishment Inventory",
+        "url": "/stock"
+      },
+      {
+        "id": "inventoryInvoice",
+        "active": false,
+        "menu_name": "FBA Inventory Invoice",
+        "url": "/inventory-invoice"
+      },
+      {
+        "id": "shippingPlan",
+        "active": false,
+        "menu_name": "FBA Replenishment Plan",
+        "url": "/plan"
+      },
+      {
+        "id": "shippingOrder",
+        "active": false,
+        "menu_name": "FBA Replenishment Order",
+        "url": "/order"
+      }
+    ]
+  }
+}

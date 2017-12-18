@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+* {
+	padding:0;
+	margin:0;
+}
+li{
+	list-style: none;
+}
+h1, h2, h3 ,ul{
+	padding: 0;
+	margin: 0;
+	font-family: "Hiragino Sans GB","Microsoft Yahei",Arial,sans-serif;
+}
+.more-a{
+	color: #004b91;
+	&:hover{
+		color: #004b91;
+	}
+}
+//弹出层
+.layui-layer-title{
+	font-size: 16px;
+	font-weight: bold;
+}
